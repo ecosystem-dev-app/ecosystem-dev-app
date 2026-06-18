@@ -1,16 +1,28 @@
-## Hi there 👋
+# Ecosystem Dev App GitHub Pages Site
 
-<!--
-**ecosystem-dev-app/ecosystem-dev-app** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This folder contains the public pages required for Google OAuth Brand Verification:
 
-Here are some ideas to get you started:
+- `index.html`
+- `privacy.html`
+- `terms.html`
+- `styles.css`
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Suggested GitHub Pages setup
+
+1. Create a new public GitHub repository.
+2. Upload the files in this folder to the repository root.
+3. Open repository Settings.
+4. Go to Pages.
+5. Set Source to `Deploy from a branch`.
+6. Select branch `main` and folder `/root`.
+7. Save.
+
+After deployment, GitHub Pages will provide URLs like:
+
+```text
+https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/
+https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/privacy.html
+https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/terms.html
+```
+
+Use `YOUR_GITHUB_USERNAME.github.io` as the authorized domain in Google OAuth Branding.
